@@ -7,7 +7,7 @@ body{
     padding: 5;
     /* font font-family: ; */
     text-align: center;
-    font-size:1.2rem;
+    font-size:1.0rem;
     /* Color stop: A gradient going from the bottom to top,
    starting blue, turning green at 40% of its length,
    and finishing red */
@@ -16,4 +16,117 @@ body{
 
 .container{
     padding:2vh 0;
+    
+
+}
+
+#inside{
+    margin:auto;
+    width: 45%;
+    height:50%;
+    border-radius: 25px;
+    padding:2vh 0;
+}
+
+h1{
+    font-size: 5.2rem;
+}
+
+p{
+    color: black
+}
+
+hr{
+    width:50%;
+}
+
+/* Choose Your Wapon */
+#instruction{
+    font-size:3.0rem;
+    margin-bottom:0;
+}
+
+/* size of image */
+.img-weapon{
+    max-width:130px;
+    height:100px;
+}
+
+.choice{
+    margin:2px;
+}
+
+/* All selection choice Options */
+.select-choice{
+    display:inline-block;
+    
+    border: 5px solid;
+    /* how circle you want the border to be  */
+    border-radius: 50px;
+    /* creating exta space around the element */
+    margin: 1rem;
+    /* controling speed when changing CSS properties */
+    transition: all 0.5s ease;
+}
+
+/* Changes all of them simult. */
+#rock:hover, #paper:hover, #scissors:hover{
+    background-color: blue;
+    box-shadow:5px 7px 8px #888888;
+    cursor:pointer;
+}
+/* for some reason it is changing the rock and scissors */
+#rock{
+    background-color:black
+}
+
+#paper{
+    background-color:black
+}
+
+#scissors{
+    background-color: black;
+}
+
+.result{
+    font-size: 1.2rem;
+    /* how bold we would like the font Who will win the game */
+    font-weight: 600;
+}
+
+.win-border{
+    border:10px
+}
+
+.lose-border{
+    border:5px
+}
+
+.tie-border{
+    border:3px
+}
+
+.scores>p{
+    color:white;
+    font-size:1.7rem;
+    font-weight:600;
+    padding: 0.2rem;
+    margin:0;
+}
+
+#reset-button{
+    background-color: grey;
+    cursor:pointer;
+    padding:2px;
+    outline:inherit;
+
+/* lets see
+#reset-button:active {
+    position:relative;
+    top:1px; */
+}
+
+footer{
+    font-weight: 600;
+    font-style: italic;
 }

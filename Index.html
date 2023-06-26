@@ -8,15 +8,16 @@
     <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
+    <!-- F -->
     <div class="container">
         <header>
             <h1>Rock Paper Scissors</h1>
         </header>
 
-
+<!-- F -->
         <div id="inside">
 
-            <p id="instruction"> Select your ammo:</p>
+            <p id="instruction"> Choose Your Weapon:</p>
 
             <div class="choice">
                 <div class= "select-choice" id="rock">
@@ -27,23 +28,26 @@
                         <img class="img-weapon" src="./img/paper.png" alt="Selection-paper">
                     </div>
                     <div class=" select-choice">
-                        <div class= "select-choice" id="rock">
+                        <!-- because it had the id of rock, it was doing what rock was doing -->
+                        <div class= "select-choice" id="scissors"> 
                             <img class="img-weapon" src="./img/scissors.png" alt="Selection- scissors">
                         </div>
                     </div>
 
                     <div class="result">
-                        <p id="message">Who will win the first game?</p>
-
+                        <p id="message">Who will win?</p>
+                        <!-- F -->
                         <div class="scores">
                             <p class="total-score"> your score: <span id= "user-score">0</span></p>
                             <p class="total-score"> Computer's score: <span id="computer-score">0</span></p>
-                            <button id="reset-button">reset score</button>
+                           
+                            <!-- Reset Button -->
+                            <button id="reset-button">Reset</button>
                         </div>
                     </div>
             </div>
     <footer>
-        <p>By Randy Luna</p>
+        <p>By: Randy Luna</p>
 
 </footer>
     
