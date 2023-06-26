@@ -1,0 +1,19 @@
+html{
+    height:100%;
+}
+
+body{
+    margin:0;
+    padding: 5;
+    /* font font-family: ; */
+    text-align: center;
+    font-size:1.2rem;
+    /* Color stop: A gradient going from the bottom to top,
+   starting blue, turning green at 40% of its length,
+   and finishing red */
+    background-image: linear-gradient(45deg,blue,green 40%, red);
+}
+
+.container{
+    padding:2vh 0;
+}
